@@ -1,10 +1,14 @@
 import React from 'react'
+import Layout from '../common/Layout'
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
+    <Layout>
+
+      <section>
+        <h1>Home</h1>
+      </section>
+    </Layout>
   )
 }
 
