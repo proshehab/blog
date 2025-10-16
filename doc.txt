@@ -4,3 +4,5 @@ npm i react-hot-toast
 npm i react-hook-form
 npm i moment
 npm install axios
+
+npm install tailwindcss @tailwindcss/vite
