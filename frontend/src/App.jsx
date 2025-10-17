@@ -5,6 +5,10 @@ import Blog from './components/pages/Blog'
 import Detail from './components/pages/Detail'
 import Login from './components/pages/Login'
 import Register from './components/pages/Register'
+import Profile from './components/account/Profile'
+import MyBlogs from './components/account/MyBlogs'
+import Favorites from './components/account/Favoruites'
+import ChangePassword from './components/account/ChangePassword'
 
 
 function App() {
@@ -19,6 +23,11 @@ function App() {
           <Route path='/detail' element={<Detail />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
+          <Route path='/account/profile' element={<Profile />} />
+          <Route path='/account/my-blogs' element={<MyBlogs />} />
+          <Route path='/account/saved-blogs' element={<Favorites />} />
+          <Route path='/account/change-password' element={<ChangePassword />} />
+
         </Routes>
       </BrowserRouter>
     </>

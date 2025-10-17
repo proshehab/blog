@@ -1,4 +1,8 @@
-import React from 'react'
+import React, { useState } from "react";
+import Layout from "../common/Layout";
+import { Cog6ToothIcon } from "@heroicons/react/24/outline";
+import Sidebar from "./Sidebar";
+
 
 const Profile = () => {
   return (
