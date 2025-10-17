@@ -1,3 +1,6 @@
+Frontend React
+---------------
+
 npm create vite@latest
 npm i react-router-dom
 npm i react-hot-toast
@@ -8,3 +11,19 @@ npm install axios
 npm install tailwindcss @tailwindcss/vite
 
 npm install @heroicons/react
+
+
+Bacnkend
+-------------
+npm init
+
+npm install cors
+npm install express
+npm install mongoose
+npm install dotenv
+npm install jsonwebtoken
+npm install bcrypt
+npm install cloudinary
+npm install multer
+npm install nodemon
+
