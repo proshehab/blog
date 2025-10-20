@@ -1,7 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useForm } from 'react-hook-form'
 
 const Login = () => {
+     const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm()
+
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100">
             <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
