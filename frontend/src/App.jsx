@@ -9,6 +9,9 @@ import Profile from './components/account/Profile'
 import MyBlogs from './components/account/MyBlogs'
 import Favorites from './components/account/Favoruites'
 import ChangePassword from './components/account/ChangePassword'
+// import AdminLogin  from './components/admin/Login'
+// import {TostContainer,toast} from 'react-toastify'
+// import  Dashboard  from './components/admin/Dashboard'
 
 
 function App() {
@@ -27,9 +30,12 @@ function App() {
           <Route path='/account/my-blogs' element={<MyBlogs />} />
           <Route path='/account/saved-blogs' element={<Favorites />} />
           <Route path='/account/change-password' element={<ChangePassword />} />
+          <Route path='/admin/login' element={<AdminLogin />} />
+          <Route path='/admin/dashboard' element={<Dashboard />} />
 
         </Routes>
       </BrowserRouter>
+      <TostContainer />
     </>
   )
 }

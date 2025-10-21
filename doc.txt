@@ -7,9 +7,9 @@ npm i react-hot-toast
 npm i react-hook-form
 npm i moment
 npm install axios
+npm i react-toastify
 
 npm install tailwindcss @tailwindcss/vite
-
 npm install @heroicons/react
 
 
