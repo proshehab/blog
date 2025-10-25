@@ -3,17 +3,25 @@ Frontend React
 
 npm create vite@latest
 npm i react-router-dom
-npm i react-hot-toast
+npm install  react-hot-toast
 npm i react-hook-form
 npm i moment
 npm install axios
 npm i react-toastify
 
 npm install tailwindcss @tailwindcss/vite
+import tailwindcss from '@tailwindcss/vite'
+tailwindcss(),
 npm install @heroicons/react
 
 
-Bacnkend
+Bacnkend Laravel API
+==================
+php artisan install:api
+
+use Laravel\Sanctum\HasApiTokens;
+
+MERN Backend
 -------------
 npm init
 
