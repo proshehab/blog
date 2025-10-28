@@ -14,7 +14,7 @@ const Header = () => {
             <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm font-dm-sans">
                 <div className="container max-w-[1440px] mx-auto flex items-center justify-between px-4 py-4">
                     <Link to="/" className="text-xl font-bold ">
-                        Blogify
+                        Blogify Home
                     </Link>
 
                     <nav className="hidden md:flex space-x-6">
